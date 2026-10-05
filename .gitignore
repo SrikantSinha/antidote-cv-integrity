@@ -1,0 +1,120 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ================================
+# Environment / Secrets
+# ================================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.secret
+
+# ================================
+# Jupyter
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# IDE / Editor
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# Node.js
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend builds
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+
+# ================================
+# OS files
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+
+# ================================
+# Temporary files
+# ================================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ================================
+# Coverage / Testing
+# ================================
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ================================
+# ML / Data science artifacts
+# ================================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.pkl
+*.pickle
+
+# Large datasets
+data/
+datasets/
+*.csv
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+
+# ================================
+# Generated files
+# ================================
+outputs/
+results/
+checkpoints/
+artifacts/
